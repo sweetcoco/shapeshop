@@ -1,6 +1,6 @@
 {
   "name": "@shapeshop/react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A TS hook and component to capture user mouse/stylus inputs to generate svg shapes and paths",
   "devDependencies": {
     "@types/react": "^17.0.39",

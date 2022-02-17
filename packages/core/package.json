@@ -1,6 +1,6 @@
 {
   "name": "@shapeshop/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A TS library to generate SVG data based on user mouse/pointer input",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
