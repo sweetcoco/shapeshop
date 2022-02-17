@@ -5,3 +5,4 @@ rollup.config.js
 tsconfig.json
 .npmignore
 .gitignore
+.np-config.js
