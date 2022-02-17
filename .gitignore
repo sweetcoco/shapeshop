@@ -3,3 +3,4 @@ dist
 node_modules
 .notes.md
 .np-config.js
+*debug.log
