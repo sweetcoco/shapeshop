@@ -47,5 +47,8 @@
   "homepage": "https://github.com/sweetcoco/shapeshop#readme",
   "dependencies": {
     "@shapeshop/core": "file:packages/core"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
