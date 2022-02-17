@@ -1,0 +1,43 @@
+{
+  "name": "@shapeshop/core",
+  "version": "0.0.1",
+  "description": "A TS library to generate SVG data based on user mouse/pointer input",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetcoco/shapeshop.git"
+  },
+  "keywords": [
+    "svg",
+    "paths",
+    "draw",
+    "mouse",
+    "shapes",
+    "canvas",
+    "freeform"
+  ],
+  "author": "Corey Howell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweetcoco/shapeshop/issues"
+  },
+  "homepage": "https://github.com/sweetcoco/shapeshop#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.67.2",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.5.5"
+  }
+}

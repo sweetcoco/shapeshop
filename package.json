@@ -1,0 +1,33 @@
+{
+  "name": "shapeshop",
+  "version": "0.0.1",
+  "description": "Generate SVG shapes and paths from user/pointer input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetcoco/shapeshop.git"
+  },
+  "keywords": [
+    "svg",
+    "paths",
+    "draw",
+    "mouse",
+    "shapes",
+    "canvas",
+    "freeform"
+  ],
+  "author": "Corey Howell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweetcoco/shapeshop/issues"
+  },
+  "homepage": "https://github.com/sweetcoco/shapeshop#readme",
+  "workspaces": [
+    "packages/core",
+    "packages/react"
+  ]
+}

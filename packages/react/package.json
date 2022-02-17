@@ -1,0 +1,51 @@
+{
+  "name": "@shapeshop/react",
+  "version": "0.0.1",
+  "description": "A TS hook and component to capture user mouse/stylus inputs to generate svg shapes and paths",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetcoco/shapeshop.git"
+  },
+  "keywords": [
+    "svg",
+    "react",
+    "hook",
+    "hooks",
+    "component",
+    "components",
+    "paths",
+    "draw",
+    "mouse",
+    "shapes",
+    "canvas",
+    "freeform"
+  ],
+  "author": "Corey Howell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweetcoco/shapeshop/issues"
+  },
+  "homepage": "https://github.com/sweetcoco/shapeshop#readme",
+  "dependencies": {
+    "@shapeshop/core": "file:packages/core"
+  }
+}

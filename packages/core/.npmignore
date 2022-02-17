@@ -1,0 +1,7 @@
+node_modules
+.notes.md
+src
+rollup.config.js
+tsconfig.json
+.npmignore
+.gitignore
