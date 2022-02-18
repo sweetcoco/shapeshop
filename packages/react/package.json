@@ -1,6 +1,6 @@
 {
   "name": "@shapeshop/react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A TS hook and component to capture user mouse/stylus inputs to generate svg shapes and paths",
   "devDependencies": {
     "@types/react": "^17.0.39",
@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/sweetcoco/shapeshop#readme",
   "dependencies": {
-    "@shapeshop/core": "^0.0"
+    "@shapeshop/core": "^0.0.4"
   },
   "publishConfig": {
     "access": "public"
