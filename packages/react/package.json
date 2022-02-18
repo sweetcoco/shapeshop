@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/sweetcoco/shapeshop#readme",
   "dependencies": {
-    "@shapeshop/core": "file:packages/core"
+    "@shapeshop/core": "^0.0"
   },
   "publishConfig": {
     "access": "public"
